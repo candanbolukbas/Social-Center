@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD567D3415CAF87F00C5E212 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD567D3315CAF87F00C5E212 /* UIKit.framework */; };
+		AD567D3615CAF87F00C5E212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD567D3515CAF87F00C5E212 /* Foundation.framework */; };
+		AD567D3815CAF87F00C5E212 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD567D3715CAF87F00C5E212 /* CoreGraphics.framework */; };
+		AD567D3E15CAF87F00C5E212 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD567D3C15CAF87F00C5E212 /* InfoPlist.strings */; };
+		AD567D4015CAF87F00C5E212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567D3F15CAF87F00C5E212 /* main.m */; };
+		AD567D4415CAF87F00C5E212 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567D4315CAF87F00C5E212 /* SCAppDelegate.m */; };
+		AD567D4715CAF87F00C5E212 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567D4615CAF87F00C5E212 /* SCViewController.m */; };
+		AD567D4A15CAF87F00C5E212 /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD567D4815CAF87F00C5E212 /* SCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD567D2F15CAF87F00C5E212 /* Social Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD567D3315CAF87F00C5E212 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD567D3515CAF87F00C5E212 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD567D3715CAF87F00C5E212 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD567D3B15CAF87F00C5E212 /* Social Center-Info.plist */ = {isa = PBXFileReference; path = "Social Center-Info.plist"; sourceTree = "<group>"; };
+		AD567D3D15CAF87F00C5E212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD567D3F15CAF87F00C5E212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD567D4115CAF87F00C5E212 /* Social Center-Prefix.pch */ = {isa = PBXFileReference; path = "Social Center-Prefix.pch"; sourceTree = "<group>"; };
+		AD567D4215CAF87F00C5E212 /* SCAppDelegate.h */ = {isa = PBXFileReference; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		AD567D4315CAF87F00C5E212 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		AD567D4515CAF87F00C5E212 /* SCViewController.h */ = {isa = PBXFileReference; path = SCViewController.h; sourceTree = "<group>"; };
+		AD567D4615CAF87F00C5E212 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		AD567D4915CAF87F00C5E212 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD567D2C15CAF87F00C5E212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD567D3415CAF87F00C5E212 /* UIKit.framework in Frameworks */,
+				AD567D3615CAF87F00C5E212 /* Foundation.framework in Frameworks */,
+				AD567D3815CAF87F00C5E212 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD567D2415CAF87F00C5E212 = {
+			isa = PBXGroup;
+			children = (
+				AD567D3915CAF87F00C5E212 /* Social Center */,
+				AD567D3215CAF87F00C5E212 /* Frameworks */,
+				AD567D3015CAF87F00C5E212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD567D3015CAF87F00C5E212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD567D2F15CAF87F00C5E212 /* Social Center.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD567D3215CAF87F00C5E212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD567D3315CAF87F00C5E212 /* UIKit.framework */,
+				AD567D3515CAF87F00C5E212 /* Foundation.framework */,
+				AD567D3715CAF87F00C5E212 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD567D3915CAF87F00C5E212 /* Social Center */ = {
+			isa = PBXGroup;
+			children = (
+				AD567D4215CAF87F00C5E212 /* SCAppDelegate.h */,
+				AD567D4315CAF87F00C5E212 /* SCAppDelegate.m */,
+				AD567D4515CAF87F00C5E212 /* SCViewController.h */,
+				AD567D4615CAF87F00C5E212 /* SCViewController.m */,
+				AD567D4815CAF87F00C5E212 /* SCViewController.xib */,
+				AD567D3A15CAF87F00C5E212 /* Supporting Files */,
+			);
+			path = "Social Center";
+			sourceTree = "<group>";
+		};
+		AD567D3A15CAF87F00C5E212 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD567D3B15CAF87F00C5E212 /* Social Center-Info.plist */,
+				AD567D3C15CAF87F00C5E212 /* InfoPlist.strings */,
+				AD567D3F15CAF87F00C5E212 /* main.m */,
+				AD567D4115CAF87F00C5E212 /* Social Center-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD567D2E15CAF87F00C5E212 /* Social Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD567D4D15CAF87F00C5E212 /* Build configuration list for PBXNativeTarget "Social Center" */;
+			buildPhases = (
+				AD567D2B15CAF87F00C5E212 /* Sources */,
+				AD567D2C15CAF87F00C5E212 /* Frameworks */,
+				AD567D2D15CAF87F00C5E212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Center";
+			productName = "Social Center";
+			productReference = AD567D2F15CAF87F00C5E212 /* Social Center.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD567D2615CAF87F00C5E212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "T.C. Cumhurbaşkanlığı - BTB";
+			};
+			buildConfigurationList = AD567D2915CAF87F00C5E212 /* Build configuration list for PBXProject "Social Center" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD567D2415CAF87F00C5E212;
+			productRefGroup = AD567D3015CAF87F00C5E212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD567D2E15CAF87F00C5E212 /* Social Center */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD567D2D15CAF87F00C5E212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD567D3E15CAF87F00C5E212 /* InfoPlist.strings in Resources */,
+				AD567D4A15CAF87F00C5E212 /* SCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD567D2B15CAF87F00C5E212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD567D4015CAF87F00C5E212 /* main.m in Sources */,
+				AD567D4415CAF87F00C5E212 /* SCAppDelegate.m in Sources */,
+				AD567D4715CAF87F00C5E212 /* SCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD567D3C15CAF87F00C5E212 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD567D3D15CAF87F00C5E212 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD567D4815CAF87F00C5E212 /* SCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD567D4915CAF87F00C5E212 /* en */,
+			);
+			name = SCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD567D4B15CAF87F00C5E212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD567D4C15CAF87F00C5E212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD567D4E15CAF87F00C5E212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Social Center/Social Center-Prefix.pch";
+				INFOPLIST_FILE = "Social Center/Social Center-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD567D4F15CAF87F00C5E212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Social Center/Social Center-Prefix.pch";
+				INFOPLIST_FILE = "Social Center/Social Center-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD567D2915CAF87F00C5E212 /* Build configuration list for PBXProject "Social Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD567D4B15CAF87F00C5E212 /* Debug */,
+				AD567D4C15CAF87F00C5E212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD567D4D15CAF87F00C5E212 /* Build configuration list for PBXNativeTarget "Social Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD567D4E15CAF87F00C5E212 /* Debug */,
+				AD567D4F15CAF87F00C5E212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD567D2615CAF87F00C5E212 /* Project object */;
+}
