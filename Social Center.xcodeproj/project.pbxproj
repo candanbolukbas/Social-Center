@@ -100,6 +100,7 @@
 		AD567E0315CAFF3700C5E212 /* SCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567E0215CAFF3700C5E212 /* SCBaseViewController.m */; };
 		AD567E0715CB034100C5E212 /* SCPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567E0515CB034100C5E212 /* SCPostViewController.m */; };
 		AD567E0815CB034100C5E212 /* SCPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD567E0615CB034100C5E212 /* SCPostViewController.xib */; };
+		ADD595DF15CB204E00112F75 /* backgroung_white_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD595DE15CB204E00112F75 /* backgroung_white_circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -204,6 +205,7 @@
 		AD567E0415CB034100C5E212 /* SCPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPostViewController.h; sourceTree = "<group>"; };
 		AD567E0515CB034100C5E212 /* SCPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPostViewController.m; sourceTree = "<group>"; };
 		AD567E0615CB034100C5E212 /* SCPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCPostViewController.xib; sourceTree = "<group>"; };
+		ADD595DE15CB204E00112F75 /* backgroung_white_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroung_white_circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +297,7 @@
 		AD567D5115CAF8D600C5E212 /* background */ = {
 			isa = PBXGroup;
 			children = (
+				ADD595DE15CB204E00112F75 /* backgroung_white_circle.png */,
 				AD567D5215CAF8D600C5E212 /* background_empty.png */,
 				AD567D5315CAF8D600C5E212 /* background_empty@2x.png */,
 				AD567D5415CAF8D600C5E212 /* background_post.png */,
@@ -591,6 +594,7 @@
 				AD567DFB15CAF8D700C5E212 /* circular_wordpress@2x.png in Resources */,
 				AD567E0015CAF98D00C5E212 /* SCMenuViewController.xib in Resources */,
 				AD567E0815CB034100C5E212 /* SCPostViewController.xib in Resources */,
+				ADD595DF15CB204E00112F75 /* backgroung_white_circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +724,7 @@
 				AD567D4F15CAF87F00C5E212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

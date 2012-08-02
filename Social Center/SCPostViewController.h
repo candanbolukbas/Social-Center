@@ -10,4 +10,6 @@
 
 @interface SCPostViewController : SCBaseViewController
 
+- (IBAction)handleUITextViewTouch:(UITapGestureRecognizer *)sender;
+
 @end

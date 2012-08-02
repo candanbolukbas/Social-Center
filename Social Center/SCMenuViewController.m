@@ -8,6 +8,7 @@
 
 #import "SCMenuViewController.h"
 #import "SCPostViewController.h"
+#import "SCViewController.h"
 
 @interface SCMenuViewController ()
 
@@ -42,15 +43,29 @@
     name.text = sender.currentTitle;
     name.textColor = [UIColor whiteColor];
     name.font = [UIFont boldSystemFontOfSize:12];
-    //name.center = CGPointMake(sender.center.x - 30, sender.center.y + 20);
-    if(sender.center.y < 220)
+    //name.center = CGPointMake(self.view.center.x + radius * cos(angleRadius) * 0.3, self.view.center.y - radius * sin(angleRadius) * 0.3);
+    //[name sizeToFit];
+    name.frame = CGRectMake(self.view.center.x -50 + radius * cos(angleRadius) * 0.64, self.view.center.y - 10 - radius *sin(angleRadius) * 0.64, 100, 20);
+    /*if(sender.center.y < 220)
         name.frame = CGRectMake(sender.center.x-40, sender.center.y - 35, 80, 20);
     else
-        name.frame = CGRectMake(sender.center.x-40, sender.center.y + 12, 80, 20);
-    name.textAlignment = UITextAlignmentCenter;
+        name.frame = CGRectMake(sender.center.x-40, sender.center.y + 12, 80, 20);*/
     name.backgroundColor = [UIColor clearColor];
     name.opaque = NO;
-    //[self.view addSubview:name];
+    
+    if(sender.tag > 6)
+    {
+        name.textAlignment = UITextAlignmentRight;
+        name.transform = CGAffineTransformMakeRotation(M_PI-angleRadius);
+    }
+    else 
+    {
+        
+        name.textAlignment = UITextAlignmentLeft;
+        name.transform = CGAffineTransformMakeRotation(-angleRadius);
+    }
+    name.tag = sender.tag + 20;
+    [self.view addSubview:name];
     
 }
 
@@ -93,6 +108,8 @@
     for(int i=1; i<=12; i++)
     {
         UIButton *button = (UIButton *)[self.view viewWithTag:i];
+        UILabel *label = (UILabel *)[self.view viewWithTag:i+20];
+        [label removeFromSuperview];
         [self animateButtonSwap:button isFinished:i==12];
     }
     
@@ -101,8 +118,20 @@
 
 - (IBAction)menuButtonClicked:(UIButton *)sender 
 {
-    SCPostViewController *pv = [[SCPostViewController alloc] init];
-    [self presentModalViewController:pv animated:YES];
+    if(sender.tag == 12)
+    {
+        SCPostViewController *pv = [[SCPostViewController alloc] init];
+        [self presentModalViewController:pv animated:YES];
+    }
+    else
+    {
+        SCViewController *vc = [[SCViewController alloc] init];
+        [self presentModalViewController:vc animated:YES];
+    }
 }
 
 @end
+
+
+
+

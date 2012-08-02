@@ -27,12 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap)];
-    
-    //modify this number to recognizer number of tap
+    /*UITapGestureRecognizer *twoFingerTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTwoFingerTap)];
     [twoFingerTap setNumberOfTapsRequired:2];
     UITextView *tv = (UITextView *)[self.view viewWithTag:3];
-    [tv addGestureRecognizer:twoFingerTap];
+    [tv addGestureRecognizer:twoFingerTap];*/
 }
 
 -(void)handleTwoFingerTap{
@@ -52,4 +50,15 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)handleUITextViewTouch:(UITapGestureRecognizer *)sender 
+{
+    NSLog(@"Number of touches: %d", sender.numberOfTouches);
+    
+    if(sender.numberOfTouches == 2)
+        [self twoFingerTouchAction];
+}
 @end
+
+
+
+
