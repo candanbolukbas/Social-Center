@@ -1,24 +1,30 @@
 //
-//  SCViewController.m
+//  SCBaseViewController.m
 //  Social Center
 //
 //  Created by Candan BÖLÜKBAŞ on 2 Aug.
 //  Copyright (c) 2012 T.C. Cumhurbaşkanlığı - BTB. All rights reserved.
 //
 
-#import "SCViewController.h"
+#import "SCBaseViewController.h"
 #import "SCMenuViewController.h"
 
-@interface SCViewController ()
+@interface SCBaseViewController ()
 
 @end
 
-@implementation SCViewController
+@implementation SCBaseViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	UITapGestureRecognizer *twoFingersTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(twoFingerTouchAction)];
+	[twoFingersTap setNumberOfTapsRequired:1];
+	[twoFingersTap setNumberOfTouchesRequired:2];
+	[self.view addGestureRecognizer:twoFingersTap];
+	
+    self.view.multipleTouchEnabled = YES;
 }
 
 - (void)viewDidUnload
@@ -29,10 +35,11 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)showMenu:(UIButton *)sender 
+
+- (IBAction)twoFingerTouchAction
 {
     SCMenuViewController *mv = [[SCMenuViewController alloc] init];
     mv.view.opaque = NO;
@@ -40,4 +47,6 @@
     self.modalPresentationStyle = UIModalPresentationCurrentContext;
     [self presentModalViewController:mv animated:YES];
 }
+
+
 @end

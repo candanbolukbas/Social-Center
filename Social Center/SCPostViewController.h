@@ -1,5 +1,5 @@
 //
-//  SCViewController.h
+//  SCPostViewController.h
 //  Social Center
 //
 //  Created by Candan BÖLÜKBAŞ on 2 Aug.
@@ -8,7 +8,6 @@
 
 #import "SCBaseViewController.h"
 
-@interface SCViewController : SCBaseViewController
-- (IBAction)showMenu:(UIButton *)sender;
+@interface SCPostViewController : SCBaseViewController
 
 @end
