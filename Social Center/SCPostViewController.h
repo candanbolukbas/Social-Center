@@ -7,10 +7,10 @@
 //
 
 #import "SCBaseViewController.h"
+#import "SCAlertViewController.h"
 
 @interface SCPostViewController : SCBaseViewController<UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate>
 - (IBAction)sendButtonClicked:(UIButton *)sender;
-
 - (IBAction)openMenu:(UIButton *)sender;
 - (IBAction)handleUIImageViewTouch:(UITapGestureRecognizer *)sender;
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info;
@@ -25,5 +25,10 @@
 
 @property (unsafe_unretained, nonatomic) IBOutlet UITextField *titleTextField;
 @property (nonatomic, strong) NSMutableDictionary *socialNetworksSubmissions;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UIImageView *alertBackgroundImageView;
+@property (unsafe_unretained, nonatomic) IBOutlet UIImageView *alertCenterImageView;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UILabel *alertCenterLabel;
 
 @end

@@ -20,6 +20,9 @@
 @synthesize commentTextView;
 @synthesize titleTextField;
 @synthesize socialNetworksSubmissions;
+@synthesize alertBackgroundImageView;
+@synthesize alertCenterImageView;
+@synthesize alertCenterLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -70,6 +73,9 @@
     [self setCommentTextView:nil];
     [self setSendButton:nil];
     [self setPostImageView:nil];
+    [self setAlertBackgroundImageView:nil];
+    [self setAlertCenterImageView:nil];
+    [self setAlertCenterLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -151,6 +157,20 @@
     return YES;
 }
 
+- (void)dismissAlertWindow
+{
+    alertBackgroundImageView.alpha = 0.0;
+    alertCenterLabel.alpha = 0.0;
+    alertCenterImageView.alpha = 0.0;
+}
+
+- (void)showAlertWindow
+{
+    alertBackgroundImageView.alpha = 0.6;
+    alertCenterLabel.alpha = 1.0;
+    alertCenterImageView.alpha = 1.0;
+}
+
 - (IBAction)balllonItemClicked:(UIButton *)sender 
 {
     SCGlobals *globals = [[SCGlobals alloc] init];
@@ -165,6 +185,22 @@
     {
         [socialNetworksSubmissions setValue:@"1" forKey:theKey];
         [sender setImage:[UIImage imageNamed:[NSString stringWithFormat:globals.imageNameFormatBalloonColor, [globals.socialNetworksInternalNames objectForKey:theKey]]] forState:UIControlStateNormal];
+        alertCenterImageView.image = [UIImage imageNamed:[NSString stringWithFormat:globals.imageNameFormatBalloonColor2x, [globals.socialNetworksInternalNames objectForKey:theKey]]];
+        alertCenterLabel.text = [globals.socialNetworks objectForKey:theKey];
+        
+        [UIView animateWithDuration:0.5/1.5 animations:^{
+            [self showAlertWindow];
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.9/2 animations:^{
+                alertBackgroundImageView.alpha = 0.61;
+            } completion:^(BOOL finished) {
+                [UIView animateWithDuration:0.3/2 animations:^{
+                    [self dismissAlertWindow];
+                }];
+            }];
+        }];
+        
+        //[self performSelector:@selector(dismissAlertWindow:) withObject:nil afterDelay:1.0];
     }
 }
 

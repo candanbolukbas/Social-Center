@@ -14,7 +14,7 @@
 @implementation SCGlobals
 
 @synthesize socialNetworks, socialNetworksInternalNames;
-@synthesize imageNameFormatBalloonColor, imageNameFormatBalloonSephia;
+@synthesize imageNameFormatBalloonColor, imageNameFormatBalloonColor2x, imageNameFormatBalloonSephia;
 
 -(id)init
 {
@@ -48,6 +48,7 @@
                           nil];
         
         imageNameFormatBalloonColor = @"balloon_%@.png";
+        imageNameFormatBalloonColor2x = @"balloon_%@@2x.png";
         imageNameFormatBalloonSephia = @"balloon_%@_sephia.png";
     }
     return self;
