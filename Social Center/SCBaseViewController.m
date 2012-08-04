@@ -23,7 +23,6 @@
 	[twoFingersTap setNumberOfTapsRequired:1];
 	[twoFingersTap setNumberOfTouchesRequired:2];
 	[self.view addGestureRecognizer:twoFingersTap];
-	
     self.view.multipleTouchEnabled = YES;
 }
 
@@ -43,7 +42,7 @@
 {
     SCMenuViewController *mv = [[SCMenuViewController alloc] init];
     mv.view.opaque = NO;
-    mv.view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.8f];
+    mv.view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.6f];
     self.modalPresentationStyle = UIModalPresentationCurrentContext;
     [self presentModalViewController:mv animated:YES];
 }

@@ -100,6 +100,47 @@
 		AD567E0315CAFF3700C5E212 /* SCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567E0215CAFF3700C5E212 /* SCBaseViewController.m */; };
 		AD567E0715CB034100C5E212 /* SCPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD567E0515CB034100C5E212 /* SCPostViewController.m */; };
 		AD567E0815CB034100C5E212 /* SCPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD567E0615CB034100C5E212 /* SCPostViewController.xib */; };
+		AD9A3D4615CC4EF700EC8602 /* wood_blank_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3A15CC4EF700EC8602 /* wood_blank_dark.png */; };
+		AD9A3D4715CC4EF700EC8602 /* wood_blank_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3B15CC4EF700EC8602 /* wood_blank_dark@2x.png */; };
+		AD9A3D4815CC4EF700EC8602 /* wood_blank_light.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3C15CC4EF700EC8602 /* wood_blank_light.png */; };
+		AD9A3D4915CC4EF700EC8602 /* wood_blank_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3D15CC4EF700EC8602 /* wood_blank_light@2x.png */; };
+		AD9A3D4A15CC4EF700EC8602 /* wood_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3E15CC4EF700EC8602 /* wood_empty.png */; };
+		AD9A3D4B15CC4EF700EC8602 /* wood_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D3F15CC4EF700EC8602 /* wood_empty@2x.png */; };
+		AD9A3D4C15CC4EF700EC8602 /* wood_empty_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4015CC4EF700EC8602 /* wood_empty_2.png */; };
+		AD9A3D4D15CC4EF700EC8602 /* wood_empty_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4115CC4EF700EC8602 /* wood_empty_2@2x.png */; };
+		AD9A3D4E15CC4EF700EC8602 /* wood_post_1.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4215CC4EF700EC8602 /* wood_post_1.png */; };
+		AD9A3D4F15CC4EF700EC8602 /* wood_post_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4315CC4EF700EC8602 /* wood_post_1@2x.png */; };
+		AD9A3D5015CC4EF700EC8602 /* wood_post_2.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4415CC4EF700EC8602 /* wood_post_2.png */; };
+		AD9A3D5115CC4EF700EC8602 /* wood_post_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D4515CC4EF700EC8602 /* wood_post_2@2x.png */; };
+		AD9A3D6E15CC562700EC8602 /* balloon_blogger_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5515CC562700EC8602 /* balloon_blogger_sephia.png */; };
+		AD9A3D6F15CC562700EC8602 /* balloon_facebook_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5615CC562700EC8602 /* balloon_facebook_sephia.png */; };
+		AD9A3D7015CC562700EC8602 /* balloon_flicr_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5715CC562700EC8602 /* balloon_flicr_sephia.png */; };
+		AD9A3D7115CC562700EC8602 /* balloon_foursquare_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5815CC562700EC8602 /* balloon_foursquare_sephia.png */; };
+		AD9A3D7215CC562700EC8602 /* balloon_googleplusblack_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5915CC562700EC8602 /* balloon_googleplusblack_sephia.png */; };
+		AD9A3D7315CC562700EC8602 /* balloon_googlepluswhite_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5A15CC562700EC8602 /* balloon_googlepluswhite_sephia.png */; };
+		AD9A3D7415CC562700EC8602 /* balloon_instagram_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5B15CC562700EC8602 /* balloon_instagram_sephia.png */; };
+		AD9A3D7515CC562700EC8602 /* balloon_linkedin_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5C15CC562700EC8602 /* balloon_linkedin_sephia.png */; };
+		AD9A3D7615CC562700EC8602 /* balloon_myspace_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5D15CC562700EC8602 /* balloon_myspace_sephia.png */; };
+		AD9A3D7715CC562700EC8602 /* balloon_tumblr_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5E15CC562700EC8602 /* balloon_tumblr_sephia.png */; };
+		AD9A3D7815CC562700EC8602 /* balloon_twitter_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D5F15CC562700EC8602 /* balloon_twitter_sephia.png */; };
+		AD9A3D7915CC562700EC8602 /* balloon_wordpress_sephia.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6015CC562700EC8602 /* balloon_wordpress_sephia.png */; };
+		AD9A3D7A15CC562700EC8602 /* balloon_blogger_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6215CC562700EC8602 /* balloon_blogger_sephia@2x.png */; };
+		AD9A3D7B15CC562700EC8602 /* balloon_facebook_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6315CC562700EC8602 /* balloon_facebook_sephia@2x.png */; };
+		AD9A3D7C15CC562700EC8602 /* balloon_flickr_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6415CC562700EC8602 /* balloon_flickr_sephia@2x.png */; };
+		AD9A3D7D15CC562700EC8602 /* balloon_foursquare_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6515CC562700EC8602 /* balloon_foursquare_sephia@2x.png */; };
+		AD9A3D7E15CC562700EC8602 /* balloon_googleplusblack_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6615CC562700EC8602 /* balloon_googleplusblack_sephia@2x.png */; };
+		AD9A3D7F15CC562700EC8602 /* balloon_googlepluswhite_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6715CC562700EC8602 /* balloon_googlepluswhite_sephia@2x.png */; };
+		AD9A3D8015CC562700EC8602 /* balloon_instagram_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6815CC562700EC8602 /* balloon_instagram_sephia@2x.png */; };
+		AD9A3D8115CC562700EC8602 /* balloon_linkedin_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6915CC562700EC8602 /* balloon_linkedin_sephia@2x.png */; };
+		AD9A3D8215CC562700EC8602 /* balloon_myspace_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6A15CC562700EC8602 /* balloon_myspace_sephia@2x.png */; };
+		AD9A3D8315CC562700EC8602 /* balloon_tumblr_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6B15CC562700EC8602 /* balloon_tumblr_sephia@2x.png */; };
+		AD9A3D8415CC562700EC8602 /* balloon_twitter_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6C15CC562700EC8602 /* balloon_twitter_sephia@2x.png */; };
+		AD9A3D8515CC562700EC8602 /* balloon_wordpress_sephia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D6D15CC562700EC8602 /* balloon_wordpress_sephia@2x.png */; };
+		AD9A3D8815CC5BEE00EC8602 /* SCGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9A3D8715CC5BEE00EC8602 /* SCGlobals.m */; };
+		AD9A3D8F15CC917B00EC8602 /* rect_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D8B15CC917B00EC8602 /* rect_button.png */; };
+		AD9A3D9015CC917B00EC8602 /* rect_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D8C15CC917B00EC8602 /* rect_button@2x.png */; };
+		AD9A3D9115CC917B00EC8602 /* square_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D8D15CC917B00EC8602 /* square_button.png */; };
+		AD9A3D9215CC917B00EC8602 /* square_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD9A3D8E15CC917B00EC8602 /* square_button@2x.png */; };
 		ADD595DF15CB204E00112F75 /* backgroung_white_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD595DE15CB204E00112F75 /* backgroung_white_circle.png */; };
 /* End PBXBuildFile section */
 
@@ -205,6 +246,48 @@
 		AD567E0415CB034100C5E212 /* SCPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPostViewController.h; sourceTree = "<group>"; };
 		AD567E0515CB034100C5E212 /* SCPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPostViewController.m; sourceTree = "<group>"; };
 		AD567E0615CB034100C5E212 /* SCPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCPostViewController.xib; sourceTree = "<group>"; };
+		AD9A3D3A15CC4EF700EC8602 /* wood_blank_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_blank_dark.png; sourceTree = "<group>"; };
+		AD9A3D3B15CC4EF700EC8602 /* wood_blank_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_blank_dark@2x.png"; sourceTree = "<group>"; };
+		AD9A3D3C15CC4EF700EC8602 /* wood_blank_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_blank_light.png; sourceTree = "<group>"; };
+		AD9A3D3D15CC4EF700EC8602 /* wood_blank_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_blank_light@2x.png"; sourceTree = "<group>"; };
+		AD9A3D3E15CC4EF700EC8602 /* wood_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_empty.png; sourceTree = "<group>"; };
+		AD9A3D3F15CC4EF700EC8602 /* wood_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_empty@2x.png"; sourceTree = "<group>"; };
+		AD9A3D4015CC4EF700EC8602 /* wood_empty_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_empty_2.png; sourceTree = "<group>"; };
+		AD9A3D4115CC4EF700EC8602 /* wood_empty_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_empty_2@2x.png"; sourceTree = "<group>"; };
+		AD9A3D4215CC4EF700EC8602 /* wood_post_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_post_1.png; sourceTree = "<group>"; };
+		AD9A3D4315CC4EF700EC8602 /* wood_post_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_post_1@2x.png"; sourceTree = "<group>"; };
+		AD9A3D4415CC4EF700EC8602 /* wood_post_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_post_2.png; sourceTree = "<group>"; };
+		AD9A3D4515CC4EF700EC8602 /* wood_post_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_post_2@2x.png"; sourceTree = "<group>"; };
+		AD9A3D5515CC562700EC8602 /* balloon_blogger_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_blogger_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5615CC562700EC8602 /* balloon_facebook_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_facebook_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5715CC562700EC8602 /* balloon_flicr_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_flicr_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5815CC562700EC8602 /* balloon_foursquare_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_foursquare_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5915CC562700EC8602 /* balloon_googleplusblack_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_googleplusblack_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5A15CC562700EC8602 /* balloon_googlepluswhite_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_googlepluswhite_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5B15CC562700EC8602 /* balloon_instagram_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_instagram_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5C15CC562700EC8602 /* balloon_linkedin_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_linkedin_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5D15CC562700EC8602 /* balloon_myspace_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_myspace_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5E15CC562700EC8602 /* balloon_tumblr_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_tumblr_sephia.png; sourceTree = "<group>"; };
+		AD9A3D5F15CC562700EC8602 /* balloon_twitter_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_twitter_sephia.png; sourceTree = "<group>"; };
+		AD9A3D6015CC562700EC8602 /* balloon_wordpress_sephia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon_wordpress_sephia.png; sourceTree = "<group>"; };
+		AD9A3D6215CC562700EC8602 /* balloon_blogger_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_blogger_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6315CC562700EC8602 /* balloon_facebook_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_facebook_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6415CC562700EC8602 /* balloon_flickr_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_flickr_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6515CC562700EC8602 /* balloon_foursquare_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_foursquare_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6615CC562700EC8602 /* balloon_googleplusblack_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_googleplusblack_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6715CC562700EC8602 /* balloon_googlepluswhite_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_googlepluswhite_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6815CC562700EC8602 /* balloon_instagram_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_instagram_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6915CC562700EC8602 /* balloon_linkedin_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_linkedin_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6A15CC562700EC8602 /* balloon_myspace_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_myspace_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6B15CC562700EC8602 /* balloon_tumblr_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_tumblr_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6C15CC562700EC8602 /* balloon_twitter_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_twitter_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D6D15CC562700EC8602 /* balloon_wordpress_sephia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balloon_wordpress_sephia@2x.png"; sourceTree = "<group>"; };
+		AD9A3D8615CC5BEE00EC8602 /* SCGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGlobals.h; sourceTree = "<group>"; };
+		AD9A3D8715CC5BEE00EC8602 /* SCGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGlobals.m; sourceTree = "<group>"; };
+		AD9A3D8B15CC917B00EC8602 /* rect_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect_button.png; sourceTree = "<group>"; };
+		AD9A3D8C15CC917B00EC8602 /* rect_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rect_button@2x.png"; sourceTree = "<group>"; };
+		AD9A3D8D15CC917B00EC8602 /* square_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_button.png; sourceTree = "<group>"; };
+		AD9A3D8E15CC917B00EC8602 /* square_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square_button@2x.png"; sourceTree = "<group>"; };
 		ADD595DE15CB204E00112F75 /* backgroung_white_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroung_white_circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -267,6 +350,8 @@
 				AD567E0415CB034100C5E212 /* SCPostViewController.h */,
 				AD567E0515CB034100C5E212 /* SCPostViewController.m */,
 				AD567E0615CB034100C5E212 /* SCPostViewController.xib */,
+				AD9A3D8615CC5BEE00EC8602 /* SCGlobals.h */,
+				AD9A3D8715CC5BEE00EC8602 /* SCGlobals.m */,
 			);
 			path = "Social Center";
 			sourceTree = "<group>";
@@ -285,6 +370,8 @@
 		AD567D5015CAF8D600C5E212 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AD9A3D5315CC562700EC8602 /* baloon sephia */,
+				AD9A3D3915CC4EF700EC8602 /* wood template */,
 				AD567D5115CAF8D600C5E212 /* background */,
 				AD567D5615CAF8D600C5E212 /* balloon gray */,
 				AD567D7115CAF8D700C5E212 /* baloon */,
@@ -458,6 +545,76 @@
 			path = 96px;
 			sourceTree = "<group>";
 		};
+		AD9A3D3915CC4EF700EC8602 /* wood template */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A3D8B15CC917B00EC8602 /* rect_button.png */,
+				AD9A3D8C15CC917B00EC8602 /* rect_button@2x.png */,
+				AD9A3D8D15CC917B00EC8602 /* square_button.png */,
+				AD9A3D8E15CC917B00EC8602 /* square_button@2x.png */,
+				AD9A3D3A15CC4EF700EC8602 /* wood_blank_dark.png */,
+				AD9A3D3B15CC4EF700EC8602 /* wood_blank_dark@2x.png */,
+				AD9A3D3C15CC4EF700EC8602 /* wood_blank_light.png */,
+				AD9A3D3D15CC4EF700EC8602 /* wood_blank_light@2x.png */,
+				AD9A3D3E15CC4EF700EC8602 /* wood_empty.png */,
+				AD9A3D3F15CC4EF700EC8602 /* wood_empty@2x.png */,
+				AD9A3D4015CC4EF700EC8602 /* wood_empty_2.png */,
+				AD9A3D4115CC4EF700EC8602 /* wood_empty_2@2x.png */,
+				AD9A3D4215CC4EF700EC8602 /* wood_post_1.png */,
+				AD9A3D4315CC4EF700EC8602 /* wood_post_1@2x.png */,
+				AD9A3D4415CC4EF700EC8602 /* wood_post_2.png */,
+				AD9A3D4515CC4EF700EC8602 /* wood_post_2@2x.png */,
+			);
+			path = "wood template";
+			sourceTree = "<group>";
+		};
+		AD9A3D5315CC562700EC8602 /* baloon sephia */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A3D5415CC562700EC8602 /* 32px */,
+				AD9A3D6115CC562700EC8602 /* 64px */,
+			);
+			path = "baloon sephia";
+			sourceTree = "<group>";
+		};
+		AD9A3D5415CC562700EC8602 /* 32px */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A3D5515CC562700EC8602 /* balloon_blogger_sephia.png */,
+				AD9A3D5615CC562700EC8602 /* balloon_facebook_sephia.png */,
+				AD9A3D5715CC562700EC8602 /* balloon_flicr_sephia.png */,
+				AD9A3D5815CC562700EC8602 /* balloon_foursquare_sephia.png */,
+				AD9A3D5915CC562700EC8602 /* balloon_googleplusblack_sephia.png */,
+				AD9A3D5A15CC562700EC8602 /* balloon_googlepluswhite_sephia.png */,
+				AD9A3D5B15CC562700EC8602 /* balloon_instagram_sephia.png */,
+				AD9A3D5C15CC562700EC8602 /* balloon_linkedin_sephia.png */,
+				AD9A3D5D15CC562700EC8602 /* balloon_myspace_sephia.png */,
+				AD9A3D5E15CC562700EC8602 /* balloon_tumblr_sephia.png */,
+				AD9A3D5F15CC562700EC8602 /* balloon_twitter_sephia.png */,
+				AD9A3D6015CC562700EC8602 /* balloon_wordpress_sephia.png */,
+			);
+			path = 32px;
+			sourceTree = "<group>";
+		};
+		AD9A3D6115CC562700EC8602 /* 64px */ = {
+			isa = PBXGroup;
+			children = (
+				AD9A3D6215CC562700EC8602 /* balloon_blogger_sephia@2x.png */,
+				AD9A3D6315CC562700EC8602 /* balloon_facebook_sephia@2x.png */,
+				AD9A3D6415CC562700EC8602 /* balloon_flickr_sephia@2x.png */,
+				AD9A3D6515CC562700EC8602 /* balloon_foursquare_sephia@2x.png */,
+				AD9A3D6615CC562700EC8602 /* balloon_googleplusblack_sephia@2x.png */,
+				AD9A3D6715CC562700EC8602 /* balloon_googlepluswhite_sephia@2x.png */,
+				AD9A3D6815CC562700EC8602 /* balloon_instagram_sephia@2x.png */,
+				AD9A3D6915CC562700EC8602 /* balloon_linkedin_sephia@2x.png */,
+				AD9A3D6A15CC562700EC8602 /* balloon_myspace_sephia@2x.png */,
+				AD9A3D6B15CC562700EC8602 /* balloon_tumblr_sephia@2x.png */,
+				AD9A3D6C15CC562700EC8602 /* balloon_twitter_sephia@2x.png */,
+				AD9A3D6D15CC562700EC8602 /* balloon_wordpress_sephia@2x.png */,
+			);
+			path = 64px;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -595,6 +752,46 @@
 				AD567E0015CAF98D00C5E212 /* SCMenuViewController.xib in Resources */,
 				AD567E0815CB034100C5E212 /* SCPostViewController.xib in Resources */,
 				ADD595DF15CB204E00112F75 /* backgroung_white_circle.png in Resources */,
+				AD9A3D4615CC4EF700EC8602 /* wood_blank_dark.png in Resources */,
+				AD9A3D4715CC4EF700EC8602 /* wood_blank_dark@2x.png in Resources */,
+				AD9A3D4815CC4EF700EC8602 /* wood_blank_light.png in Resources */,
+				AD9A3D4915CC4EF700EC8602 /* wood_blank_light@2x.png in Resources */,
+				AD9A3D4A15CC4EF700EC8602 /* wood_empty.png in Resources */,
+				AD9A3D4B15CC4EF700EC8602 /* wood_empty@2x.png in Resources */,
+				AD9A3D4C15CC4EF700EC8602 /* wood_empty_2.png in Resources */,
+				AD9A3D4D15CC4EF700EC8602 /* wood_empty_2@2x.png in Resources */,
+				AD9A3D4E15CC4EF700EC8602 /* wood_post_1.png in Resources */,
+				AD9A3D4F15CC4EF700EC8602 /* wood_post_1@2x.png in Resources */,
+				AD9A3D5015CC4EF700EC8602 /* wood_post_2.png in Resources */,
+				AD9A3D5115CC4EF700EC8602 /* wood_post_2@2x.png in Resources */,
+				AD9A3D6E15CC562700EC8602 /* balloon_blogger_sephia.png in Resources */,
+				AD9A3D6F15CC562700EC8602 /* balloon_facebook_sephia.png in Resources */,
+				AD9A3D7015CC562700EC8602 /* balloon_flicr_sephia.png in Resources */,
+				AD9A3D7115CC562700EC8602 /* balloon_foursquare_sephia.png in Resources */,
+				AD9A3D7215CC562700EC8602 /* balloon_googleplusblack_sephia.png in Resources */,
+				AD9A3D7315CC562700EC8602 /* balloon_googlepluswhite_sephia.png in Resources */,
+				AD9A3D7415CC562700EC8602 /* balloon_instagram_sephia.png in Resources */,
+				AD9A3D7515CC562700EC8602 /* balloon_linkedin_sephia.png in Resources */,
+				AD9A3D7615CC562700EC8602 /* balloon_myspace_sephia.png in Resources */,
+				AD9A3D7715CC562700EC8602 /* balloon_tumblr_sephia.png in Resources */,
+				AD9A3D7815CC562700EC8602 /* balloon_twitter_sephia.png in Resources */,
+				AD9A3D7915CC562700EC8602 /* balloon_wordpress_sephia.png in Resources */,
+				AD9A3D7A15CC562700EC8602 /* balloon_blogger_sephia@2x.png in Resources */,
+				AD9A3D7B15CC562700EC8602 /* balloon_facebook_sephia@2x.png in Resources */,
+				AD9A3D7C15CC562700EC8602 /* balloon_flickr_sephia@2x.png in Resources */,
+				AD9A3D7D15CC562700EC8602 /* balloon_foursquare_sephia@2x.png in Resources */,
+				AD9A3D7E15CC562700EC8602 /* balloon_googleplusblack_sephia@2x.png in Resources */,
+				AD9A3D7F15CC562700EC8602 /* balloon_googlepluswhite_sephia@2x.png in Resources */,
+				AD9A3D8015CC562700EC8602 /* balloon_instagram_sephia@2x.png in Resources */,
+				AD9A3D8115CC562700EC8602 /* balloon_linkedin_sephia@2x.png in Resources */,
+				AD9A3D8215CC562700EC8602 /* balloon_myspace_sephia@2x.png in Resources */,
+				AD9A3D8315CC562700EC8602 /* balloon_tumblr_sephia@2x.png in Resources */,
+				AD9A3D8415CC562700EC8602 /* balloon_twitter_sephia@2x.png in Resources */,
+				AD9A3D8515CC562700EC8602 /* balloon_wordpress_sephia@2x.png in Resources */,
+				AD9A3D8F15CC917B00EC8602 /* rect_button.png in Resources */,
+				AD9A3D9015CC917B00EC8602 /* rect_button@2x.png in Resources */,
+				AD9A3D9115CC917B00EC8602 /* square_button.png in Resources */,
+				AD9A3D9215CC917B00EC8602 /* square_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +808,7 @@
 				AD567DFF15CAF98D00C5E212 /* SCMenuViewController.m in Sources */,
 				AD567E0315CAFF3700C5E212 /* SCBaseViewController.m in Sources */,
 				AD567E0715CB034100C5E212 /* SCPostViewController.m in Sources */,
+				AD9A3D8815CC5BEE00EC8602 /* SCGlobals.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
