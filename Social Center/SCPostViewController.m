@@ -29,7 +29,7 @@
     }
     return self;
 }
-
+ 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -94,6 +94,7 @@
 }
 - (void)textViewDidEndEditing:(UITextView *)textView
 {
+    //to do?
 }
 
 - (IBAction)sendButtonClicked:(UIButton *)sender 
