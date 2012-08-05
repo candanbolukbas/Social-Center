@@ -7,7 +7,6 @@
 //
 
 #import "SCBaseViewController.h"
-#import "SCAlertViewController.h"
 
 @interface SCPostViewController : SCBaseViewController<UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextViewDelegate>
 - (IBAction)sendButtonClicked:(UIButton *)sender;
